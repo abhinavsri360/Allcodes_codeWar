@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Hello {
+class Roman {
     public int roman(String s) {
         int l = s.length(), sum = 0;
         for (int i = 0; i < l; i++) {
@@ -68,7 +68,7 @@ class Hello {
         int f;
         System.out.print("Enter a string:");
         s = br.readLine();
-        Hello h = new Hello();
+        Roman h = new Roman();
         f = h.roman(s);
         System.out.println(f);
     }
