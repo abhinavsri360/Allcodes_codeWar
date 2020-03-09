@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Hello {
+class longestcommonprefix {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0)
             return "";
@@ -39,7 +39,7 @@ class Hello {
             s[i] = br.readLine();
         }
         String f;
-        Hello h = new Hello();
+        longestcommonprefix h = new longestcommonprefix();
         f = h.longestCommonPrefix(s);
         System.out.println(f);
     }
