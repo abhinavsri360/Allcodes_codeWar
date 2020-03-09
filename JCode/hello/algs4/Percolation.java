@@ -1,3 +1,9 @@
+import edu.princeton.cs.algs4.WeightedQuickUnionUF;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Percolation {
     private int[][] a;
 
@@ -18,10 +24,10 @@ public class Percolation {
     }
 
     public boolean isOpen(int row, int col) {
-        if (a[row][col] == 0)
-            return false;
-        else
+        if (a[row][col] == 1)
             return true;
+        else
+            return false;
     }
 
     public boolean isFull(int row, int col) {
@@ -53,6 +59,10 @@ public class Percolation {
                         row++;
                     else if (row + 1 != n && i + 1 != n && a[row][i + 1] == 2)
                         i++;
+                    else if (row - 1 != -1 && a[row - 1][i] == 2)
+                        row--;
+                    else if (i - 1 != -1 && a[row][i - 1] == 2)
+                        i--;
                     else
                         break;
                 }
@@ -68,10 +78,9 @@ public class Percolation {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        Percolation p = new Percolation(20);//Send size of grid from here
-        if (p.percolates() == true)
-            System.out.println("System Percolates");
-        else if (p.percolates() == false)
-            System.out.println("System does not percolate");
+        System.out.println("Enter size of matrix:");
+        int n = Integer.parseInt(br.readLine());
+        WeightedQuickUnionUF u = new WeightedQuickUnionUF(n);
+        Percolation p = new Percolation(n);
     }
 }
