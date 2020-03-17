@@ -6,11 +6,12 @@ public class TrinomialDP {
     }
 
     public static long trinomial(int n, int k) {
+        if (n == 0 && k == 0)
+            return 1;
+        else if (k > n || k < -n)
+            return 0;
         long[][] a = new long[n + 1][n + 2];
-        a[0][0] = 0;
-        a[0][1] = 1;
-
-        a[1][0] = a[1][1] = a[1][2] = 1;
+        a[0][1] = a[1][0] = a[1][1] = a[1][2] = 1;
 
         for (int i = 2; i < n + 1; i++) {
             for (int j = 1; j < n + 2; j++) {
