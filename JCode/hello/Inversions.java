@@ -3,9 +3,12 @@ public class Inversions {
         int n = Integer.parseInt(args[0]);
         long k = Long.parseLong(args[1]);
         int[] a = generate(n, k);
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
+        if (a == null) {
+            System.out.println("");
+            return;
         }
+        for (int i = 0; i < a.length; i++)
+            System.out.print(a[i] + " ");
         System.out.println();
     }
 
@@ -13,17 +16,22 @@ public class Inversions {
         int[] a = new int[n];
         for (int i = 0; i < n; i++)
             a[i] = i;
+        int i = 0, j = 1, c = n;
         if (n == 0 || k == 0)
             return a;
-        int i = (int) count(a);
-        int j = 1;
-        while (i != k) {
-            a[n - j - 1] = a[n - j - 1] + a[n - 1];
-            a[n - 1] = a[n - j - 1] - a[n - 1];
-            a[n - j - 1] = a[n - j - 1] - a[n - 1];
-            i = (int) count(a);
+        if (k > n * (n - 1) / 2)
+            return null;
+        while (count(a) != k) {
+            a[i] = a[i] + a[j];
+            a[j] = a[i] - a[j];
+            a[i] = a[i] - a[j];
+            i++;
             j++;
-            j = j % 10;
+            if (i == c - 1) {
+                i = 0;
+                j = 1;
+                c--;
+            }
         }
         return a;
     }
