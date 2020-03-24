@@ -1,3 +1,0 @@
-E:/Study material/Allcodes/cpac/All_C++/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Study material/Allcodes/cpac/All_C++/cmake-build-debug/CMakeFiles/untitled.dir
-E:/Study material/Allcodes/cpac/All_C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
