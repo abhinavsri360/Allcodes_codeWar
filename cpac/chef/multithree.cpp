@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -11,10 +11,7 @@ int main()
 		sum=a+b;
 		while(k--)
 			sum+=sum%10;
-		if(sum%3)
-			cout<<"NO"<<endl;
-		else
-			cout<<"YES"<<endl;
+		cout << (sum % 3 == 0 ? "YES" : "NO") << endl;
 	}
 	return 0;
 }

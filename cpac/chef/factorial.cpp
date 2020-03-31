@@ -1,53 +1,18 @@
 #include<iostream>
 using namespace std;
 
-int two(int n,int f)
-{
-	int t=0;
-	while(n)
-	{
-		if(f<=t)
-			return t;
-		if(n%2)
-			break;
-		else
-			{t++;n/=2;}
-	}
-	return t;
-}
-
 int five(int n)
 {
-	int f=0;
-	while(n)
+	int f=0,i=5;
+	while(1)
 	{
-		if(n%5)
-			break;
+		if(n/i)
+			f+=n/i;
 		else
-			{f++;n/=5;}
+			break;
+		i*=5;
 	}
 	return f;
-}
-
-int zero(int n)
-{
-	int f=0;
-	int t=0;
-	int z=0;
-	while(n--)
-	{
-		f+=five(n);
-		t+=two(n,f);
-	}
-	if(f<=t)
-		return f;
-	while(f!=0 && t!=0)
-	{
-		z++;
-		f--;
-		t--;
-	}
-	return z;
 }
 
 int main()
@@ -57,7 +22,7 @@ int main()
 	while(t--)
 	{
 		cin>>n;
-		cout<<zero(n)<<endl;
+		cout<<five(n)<<endl;
 	}
 	return 0;
 }
