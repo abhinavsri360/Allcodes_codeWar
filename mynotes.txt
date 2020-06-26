@@ -1,0 +1,35 @@
+## C++ Section
+- to push a character at back str.push_back('c')
+- to append at specific index str.append(index,char)
+- .length() to find length of string
+- access char at specific index str.at(4)
+- s[i]!='\0' can be a helpful terminating condition sometimes ;)
+- empty char '\0'
+
+
+
+
+cses.fi/problemset
+
+# Scrape code maybe::
+
+#include<bits/stdc++.h>
+using namespace std;
+
+#define abhinav ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
+#define endl "\n"
+#define ll long long int
+
+void solve(){}
+
+int main()
+{
+	abhinav;
+	int t;
+	cin>>t;
+	while(t--)
+	{
+		solve();
+	}
+	return 0;
+}
