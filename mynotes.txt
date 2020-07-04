@@ -5,7 +5,11 @@
 - access char at specific index str.at(4)
 - s[i]!='\0' can be a helpful terminating condition sometimes ;)
 - empty char '\0'
-
+- max=INT_MIN	min=INT_MAX
+- sort(a,a+n)
+- cout<<fixed<<setprecision(n)<<; // to give output to n places after decimal.
+- abs(x) gives absolute value of x
+- to initialize array to 0; int a[x] = {0};//works for double dimentional array as well.
 
 
 
@@ -33,3 +37,23 @@ int main()
 	}
 	return 0;
 }
+
+
+
+count number of bits::
+ll bitcount(ll n){
+    ll count = 0;
+    while (n > 0){
+        count += 1;
+        n = n & (n-1);
+    }
+    return count;
+}
+
+--Binary representation
+
+for i in 30..0
+	if(x & (1<<i)!=0)
+		cout<<1;
+	else
+		cout<<0;
