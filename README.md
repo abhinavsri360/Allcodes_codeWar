@@ -12,3 +12,10 @@ Crafted in Sublime Text
 ## py
 All Python :snake:<br>
 Crafted and curated in Pycharm ;)
+
+#### Made with :heart: by <a href="https://github.com/abhinavsri360">abhinavsri360</a>
+
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://github.com/abhinavsri360)
+[![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://github.com/abhinavsri360)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://github.com/abhinavsri360)
+[![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)](https://github.com/abhinavsri360)
