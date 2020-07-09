@@ -10,6 +10,7 @@
 - cout<<fixed<<setprecision(n)<<; // to give output to n places after decimal.
 - abs(x) gives absolute value of x
 - to initialize array to 0; int a[x] = {0};//works for double dimentional array as well.
+- map<int, int> map1; map<int, int>::iterator itr;
 
 
 
