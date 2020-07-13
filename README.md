@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/abhinavsri360/Allcodes_codeWar.svg)](http://hits.dwyl.com/abhinavsri360/Allcodes_codeWar)
+
 # Allcodes_codeWar
 To all the codes I've written before...P.S. I still write them...<br>
 below I describe to what each directories are meant for:
