@@ -14,10 +14,25 @@ Crafted in Sublime Text
 ## py
 All Python :snake:<br>
 Crafted and curated in Pycharm ;)
+## Algorithmic Toolbox
+Algorithmic Toolbox course present on Coursera
+## Foobar
+Google Foobar
+
+# Highlights
+## Solutions to some popular codes present on:
+- Google Foobar
+- University of California San Diego{Algorithmic Toolbox} Coursera
+- Codechef
+- Codeforces
+
+Thank you so much for visiting this repository ❤️ Liked this? ⭐ Want to Contribute? 🍴
+
+Contribution to this can be a huge step to Open-Source and a great help to many developers/coders out here 😄
 
 #### Made with :heart: by <a href="https://github.com/abhinavsri360">abhinavsri360</a>
 
+[![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)](https://github.com/abhinavsri360)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://github.com/abhinavsri360)
 [![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://github.com/abhinavsri360)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://github.com/abhinavsri360)
-[![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)](https://github.com/abhinavsri360)
