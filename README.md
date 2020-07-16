@@ -2,7 +2,10 @@
 
 **_Do open an issue if you want me to write some specific code or solve a problem maybe. I will be happy to contribute :smile:_**
 
-# Allcodes_codeWar
+<p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/shapeShifterGray.gif" alt="Gray shape shifter" height="60"/></a></p>
+<h1 align="center">Allcodes_codeWar</h1>
+<p align="center">The world's most common codes!</p>
+
 To all the codes I've written before...P.S. I still write them...<br>
 below I describe to what each directories are meant for:
 ## JCode
@@ -39,3 +42,5 @@ Contribution to this can be a huge step to Open-Source and a great help to many 
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://github.com/abhinavsri360)
 [![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://github.com/abhinavsri360)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://github.com/abhinavsri360)
+
+<p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
