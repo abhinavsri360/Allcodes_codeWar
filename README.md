@@ -1,5 +1,7 @@
 [![HitCount](http://hits.dwyl.com/abhinavsri360/Allcodes_codeWar.svg)](http://hits.dwyl.com/abhinavsri360/Allcodes_codeWar)
 
+**_Do open an issue if you want me to write some specific code or solve a problem maybe. I will be happy to contribute :smile:_**
+
 # Allcodes_codeWar
 To all the codes I've written before...P.S. I still write them...<br>
 below I describe to what each directories are meant for:
@@ -28,8 +30,6 @@ Google Foobar
 
 Thank you so much for visiting this repository It'll be huge if you ⭐ or 🍴 this repository.
 ❤️ Liked this? ⭐ Want to Contribute? 🍴
-
-**_Do open an issue if you want me to write some specific code or solve a problem maybe. I will be happy to contribute :smile:_**
 
 Contribution to this can be a huge step to Open-Source and a great help to many developers/coders out here 😄
 
