@@ -9,7 +9,7 @@ using namespace std;
   return (long long) a * b;
 }*/
 
-int gcd_fast(int a, int b) {
+long long gcd_fast(long long a, long long b) {
   if(b==0)
     return a;
   else if(a>b)
@@ -19,9 +19,9 @@ int gcd_fast(int a, int b) {
 }
 
 int main() {
-  int a, b;
+  long long a, b;
   cin >> a >> b;
-  int c = gcd_fast(a,b);
+  long long c = gcd_fast(a,b);
   cout<< (a*b)/c<<endl;
   return 0;
 }

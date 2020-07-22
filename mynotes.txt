@@ -58,3 +58,13 @@ for i in 30..0
 		cout<<1;
 	else
 		cout<<0;
+
+
+--GCD of two numbers
+
+if(b==0)
+    return a;
+  else if(a>b)
+    return gcd_fast(b,a%b);
+  else
+    return gcd_fast(a,b%a);
