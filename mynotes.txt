@@ -7,11 +7,13 @@
 - empty char '\0'
 - max=INT_MIN	min=INT_MAX
 - sort(a,a+n)
+- sort(fraction.begin(),fraction.end(),greater<int>()) // sort vector
 - cout<<fixed<<setprecision(n)<<; // to give output to n places after decimal.
 - abs(x) gives absolute value of x
 - to initialize array to 0; int a[x] = {0};//works for double dimentional array as well.
 - map<int, int> map1; map<int, int>::iterator itr;
-
+- max_element(v.begin(),v.end()) - v.begin();	//index of max element
+- *max_element(v.begin(), v.end());		//value of max element
 
 
 cses.fi/problemset
