@@ -30,8 +30,10 @@ int main() {
   }
 
   //sort(fraction.begin(),fraction.end(),greater<double>());
-
-  printf("%0.4f", get_optimal_value(capacity, weights, values, fraction)); 
+  if(n == 1 && capacity>weights[0])
+    printf("%0.4f", values[0]);
+  else
+    printf("%0.4f", get_optimal_value(capacity, weights, values, fraction)); 
 
   //cout << get_optimal_value(capacity, weights, values, fraction) << setprecision(4);
   return 0;

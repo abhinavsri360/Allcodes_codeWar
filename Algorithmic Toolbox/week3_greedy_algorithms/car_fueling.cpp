@@ -6,7 +6,7 @@ using namespace std;
 int compute_min_refills(int dist, int tank, vector<int> & stops) {
     int i=0,temp=0,count=0;
     while(dist){
-        if(temp+stops[i] < tank){
+        if(temp+stops[i] <= tank){
             temp+=stops[i];
             dist-=stops[i];
             i++;
