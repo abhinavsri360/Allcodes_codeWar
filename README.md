@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.com/abhinavsri360/Allcodes_codeWar.svg)](http://hits.dwyl.com/abhinavsri360/Allcodes_codeWar)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fabhinavsri360%2FAllcodes_codeWar&count_bg=%233D58C8&title_bg=%23555555&icon=jirasoftware.svg&icon_color=%23E7E7E7&title=smash&edge_flat=false)](https://hits.seeyoufarm.com)
 
 **_Do open an issue if you want me to write some specific code or solve a problem maybe. I will be happy to contribute :smile:_**
 
